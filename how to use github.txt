@@ -22,3 +22,16 @@ git add .
 git commit -m 'message'
 
 git push origin master
+
+저장소 주소 변경 git remote set-url origin 연결할-주소.git
+
+변경된 저장소 주소 확인git remote -v
+
+git config --global user.name 신계정
+
+git config --global user.email 신이메일
+
+다른 컴퓨터에서 레포지토리 같이관리
+git clone 주소.git
+
+git pull 로 해당 폴더 업뎃
